@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Services-Prog\\01-multitasking_&_multithreading\\01-exercise\\Ejercicio1\\Ejercicio1.csproj",
+      "projectUniqueName": "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Services-Process\\01-multithreading\\01-exercise\\Ejercicio1\\Ejercicio1.csproj",
       "projectName": "Ejercicio1",
-      "projectPath": "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Services-Prog\\01-multitasking_&_multithreading\\01-exercise\\Ejercicio1\\Ejercicio1.csproj",
+      "projectPath": "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Services-Process\\01-multithreading\\01-exercise\\Ejercicio1\\Ejercicio1.csproj",
       "packagesPath": "C:\\Users\\Nuno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Services-Prog\\01-multitasking_&_multithreading\\01-exercise\\Ejercicio1\\obj\\",
+      "outputPath": "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Services-Process\\01-multithreading\\01-exercise\\Ejercicio1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nuno\\AppData\\Roaming\\NuGet\\NuGet.Config",
