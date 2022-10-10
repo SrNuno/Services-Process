@@ -43,23 +43,23 @@
             }
         }
 
-        //static void f1()
-        //{
-        //    Console.WriteLine("A");
-        //}
-        //static void f2()
-        //{
-        //    Console.WriteLine("B");
-        //}
-        //static void f3()
-        //{
-        //    Console.WriteLine("C");
-        //}
+        static void f1()
+        {
+            Console.WriteLine("A");
+        }
+        static void f2()
+        {
+            Console.WriteLine("B");
+        }
+        static void f3()
+        {
+            Console.WriteLine("C");
+        }
 
         static void Main(string[] args)
         {
             MenuGenerator(new string[] { "Opción", "Opción", "Opción" },
-            new MyDelegate[] {});
+            new MyDelegate[] { () => f1(), () => f2(), () => f3()});
             Console.ReadKey();
         }
     }
