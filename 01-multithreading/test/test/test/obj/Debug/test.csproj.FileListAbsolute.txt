@@ -1,0 +1,11 @@
+C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\test\test\test\bin\Debug\test.exe.config
+C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\test\test\test\bin\Debug\test.exe
+C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\test\test\test\bin\Debug\test.pdb
+C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\test\test\test\obj\Debug\test.csproj.AssemblyReference.cache
+C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\test\test\test\obj\Debug\test.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\test\test\test\obj\Debug\test.Form1.resources
+C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\test\test\test\obj\Debug\test.Properties.Resources.resources
+C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\test\test\test\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\test\test\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\test\test\test\obj\Debug\test.exe
+C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\test\test\test\obj\Debug\test.pdb

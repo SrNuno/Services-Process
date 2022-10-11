@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicio3
+namespace test
 {
     public partial class Form1 : Form
     {
@@ -22,12 +22,11 @@ namespace Ejercicio3
         private void button1_Click(object sender, EventArgs e)
         {
             processes = Process.GetProcesses();
-            textBox1.Text = $"|{"PID",10} {"|",8} {"Name",10} {"|",8}{"Window Title",20} {"|",8}{Environment.NewLine}";
-            textBox1.Text += "---------------------------------------------------------------------";
-
+            textBox1.Text = $"PID{Environment.NewLine}";
             foreach (Process process in processes)
             {
-                textBox1.Text += $"{process.Id, 7}{Environment.NewLine}";
+
+                textBox1.Text += $"{process.Id}{process.ProcessName}{Environment.NewLine}";
             }
         }
     }
