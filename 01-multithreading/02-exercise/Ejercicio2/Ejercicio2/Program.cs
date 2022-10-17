@@ -8,58 +8,59 @@
             bool flag = false;
             int respuesta;
 
-            while (!flag)
+            if (names != null && funciones != null && names.Length == funciones.Length)
             {
-                try
+                while (!flag)
                 {
-                    Console.WriteLine("Menu:");
-                    for (int i = 0; i < names.Length; i++)
+                    try
                     {
-                        Console.WriteLine($"{i + 1,5}. {names[i]}");
-                    }
-                    Console.WriteLine($"{names.Length + 1,5}. Exit");
-                    Console.Write("Enter option: ");
-                    respuesta = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Menu:");
+                        for (int i = 0; i < names.Length; i++)
+                        {
+                            Console.WriteLine($"{i + 1,5}. {names[i]}");
+                        }
+                        Console.WriteLine($"{names.Length + 1,5}. Exit");
+                        Console.Write("Enter option: ");
+                        respuesta = Convert.ToInt32(Console.ReadLine());
 
-                    if (respuesta != 4)
-                    {
-                        funciones[respuesta - 1]();
+                        if (respuesta - 1 == names.Length)
+                        {
+                            flag = true;
+                            Console.WriteLine("Thanks and come back soon!");
+                        }
+                        else
+                        {
+                            if (respuesta > names.Length || respuesta <= 0)
+                            {
+                                Console.WriteLine("Option invalid");
+                            }
+                            else
+                            {
+                                funciones[respuesta - 1]();
+                            }
+                        }
                         Console.WriteLine();
                     }
-                    else
+                    catch (FormatException)
                     {
-                        flag = true;
-                        Console.WriteLine("Thanks and come back soon!");
+                        Console.WriteLine("Error, you don't use characters only numbers to the options\n");
+                    }
+                    catch (OverflowException)
+                    {
+                        Console.WriteLine("Error, range excedeed\n");
                     }
                 }
-                catch (FormatException)
-                {
-                    Console.WriteLine("Error, you don't use characters only numbers to the options\n");
-                }
-                catch (OverflowException)
-                {
-                    Console.WriteLine("Error, range excedeed\n");
-                }
             }
-        }
-
-        static void f1()
-        {
-            Console.WriteLine("A");
-        }
-        static void f2()
-        {
-            Console.WriteLine("B");
-        }
-        static void f3()
-        {
-            Console.WriteLine("C");
+            else
+            {
+                Console.WriteLine("Table no created");
+            }
         }
 
         static void Main(string[] args)
         {
-            MenuGenerator(new string[] { "Opción", "Opción", "Opción" },
-            new MyDelegate[] { () => f1(), () => f2(), () => f3()});
+            MenuGenerator(new string[] { "Opción", "Opción", "Opción", "Opción" },
+            new MyDelegate[] { () => Console.WriteLine("A"), () => Console.WriteLine("B"), () => Console.WriteLine("C"), () => Console.WriteLine("D") });
             Console.ReadKey();
         }
     }
