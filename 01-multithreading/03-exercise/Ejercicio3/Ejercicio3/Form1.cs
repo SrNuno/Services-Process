@@ -54,11 +54,11 @@ namespace Ejercicio3
             {
                 processes = Process.GetProcesses();
 
-                textBox1.Text = $"Information:{Environment.NewLine}";
                 foreach (Process p in processes)
                 {
                     if (p.Id.ToString() == textBox2.Text)
                     {
+                        textBox1.Text = $"Information:{Environment.NewLine}";
                         textBox1.Text += $"PID: {p.Id} - Name: {p.ProcessName}{Environment.NewLine}";
                         threadCollection = p.Threads;
                         textBox1.Text += $"\tSubprocess:{Environment.NewLine}";
