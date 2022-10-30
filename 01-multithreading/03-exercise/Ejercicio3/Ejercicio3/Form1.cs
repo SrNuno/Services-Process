@@ -13,8 +13,7 @@ namespace Ejercicio3
 {
     public partial class Form1 : Form
     {
-        Process[] processes = Process.GetProcesses();
-        int val;
+        Process[] processes;
         public Form1()
         {
             InitializeComponent();
@@ -31,9 +30,30 @@ namespace Ejercicio3
             textBox1.Text = "";
             processInfo();
         }
-
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            closeProcess();
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            killProcess();
+        }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            runApp();
+        }
+        private void button6_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            startsWith();
+        }
+        /*---------------------------------------------------------*/
         private void viewProcesses()
         {
+            processes = Process.GetProcesses();
             textBox1.Text += $"|{"PID",10}{"|",9}{"Name",16}{"|",15}{"Window Title",21}{"|",9}{Environment.NewLine}";
             Array.ForEach(processes, item =>
             {
@@ -42,7 +62,6 @@ namespace Ejercicio3
         }
         private void processInfo()
         {
-            Process[] processes = Process.GetProcesses();
             ProcessThreadCollection threadCollection;
             ProcessModuleCollection moduleCollection;
 
@@ -53,7 +72,6 @@ namespace Ejercicio3
             else
             {
                 processes = Process.GetProcesses();
-
                 foreach (Process p in processes)
                 {
                     if (p.Id.ToString() == textBox2.Text)
@@ -75,6 +93,68 @@ namespace Ejercicio3
                         }
                     }
                 }
+            }
+        }
+        private void closeProcess()
+        {
+            if (!Int32.TryParse(textBox2.Text, out val) || textBox2.Text.Equals(""))
+            {
+                DialogResult dialog = MessageBox.Show("PID invalid", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+            }
+            else
+            {
+                Array.ForEach(processes, item =>
+                {
+                    if (item.Id.ToString() == textBox2.Text)
+                    {
+                        item.CloseMainWindow();
+                        DialogResult dialog = MessageBox.Show("Process close correctly", "Close", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
+                        textBox2.Text = "";
+                    }
+                });
+            }
+        }
+        private void killProcess()
+        {
+            if (!Int32.TryParse(textBox2.Text, out val) || textBox2.Text.Equals(""))
+            {
+                DialogResult dialog = MessageBox.Show("PID invalid", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+            }
+            else
+            {
+                Array.ForEach(processes, item =>
+                {
+                    if (item.Id.ToString() == textBox2.Text)
+                    {
+                        item.Kill();
+                        DialogResult dialog = MessageBox.Show("Process kill correctly", "Close", MessageBoxButtons.OK, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1);
+                        textBox2.Text = "";
+                    }
+                });
+
+            }
+        }
+        private void runApp()
+        {
+            Process p = new Process();
+            p.StartInfo.FileName = textBox2.Text;
+            p.Start();
+        }
+        private void startsWith()
+        {
+            if (textBox2.Text.Equals(""))
+            {
+                DialogResult dialog = MessageBox.Show("PID invalid", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+            }
+            else
+            {
+                Array.ForEach(processes, item =>
+                {
+                    if (item.ProcessName.StartsWith(textBox2.Text.ToString()))
+                    {
+                        textBox1.Text += item.ProcessName + " - " + item.Id + Environment.NewLine;
+                    }
+                });
             }
         }
         private string cutString(string value, int chars)
