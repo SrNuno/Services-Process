@@ -13,7 +13,7 @@ namespace Ejercicio1
                 Console.WriteLine($"Student grade: {x,3}.");
                 Console.ResetColor();
             });
-
+            //Exist
             int res = Array.FindLastIndex(v, x => x >= 5);
             Console.WriteLine($"The last passing student is number {res + 1} in the list.");
 

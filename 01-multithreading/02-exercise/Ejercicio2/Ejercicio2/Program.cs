@@ -59,8 +59,8 @@
 
         static void Main(string[] args)
         {
-            MenuGenerator(new string[] { "Opción", "Opción", "Opción", "Opción" },
-            new MyDelegate[] { () => Console.WriteLine("A"), () => Console.WriteLine("B"), () => Console.WriteLine("C"), () => Console.WriteLine("D") });
+            MenuGenerator(new string[] { "Opción", "Opción", "Opción", "Opción", "ww" },
+            new MyDelegate[] { () => Console.WriteLine("A"), () => Console.WriteLine("B"), () => Console.WriteLine("C"), () => Console.WriteLine("D"), () => Console.WriteLine("e") });
             Console.ReadKey();
         }
     }

@@ -12,6 +12,10 @@
             Thread thread1 = new Thread(() => decrement());
             thread.Start();
             thread1.Start();
+
+            thread.Join();
+
+
         }
         static void increment()
         {
@@ -23,14 +27,11 @@
                     {
                         Console.WriteLine("T1: " + val);
                         val++;
+                        if (val == 1001)
+                        {
+                            finish = true;
+                        }
                     }
-                }
-                if (val == 1000)
-                {
-                    finish = true;
-                    Console.ForegroundColor = ConsoleColor.DarkRed;
-                    Console.WriteLine("T1 WIN");
-                    Console.ResetColor();
                 }
             }
             Console.ReadKey();
@@ -46,14 +47,11 @@
                     {
                         Console.WriteLine("T2: " + val);
                         val--;
+                        if (val == -1001)
+                        {
+                            finish = true;
+                        }
                     }
-                }
-                if (val == -1000)
-                {
-                    finish = true;
-                    Console.ForegroundColor = ConsoleColor.DarkBlue;
-                    Console.WriteLine("T2 WIN");
-                    Console.ResetColor();
                 }
             }
             Console.ReadKey();
