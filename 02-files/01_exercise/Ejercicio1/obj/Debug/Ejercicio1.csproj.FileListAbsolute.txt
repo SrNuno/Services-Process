@@ -1,0 +1,22 @@
+C:\Users\Nuno\Documents\DAM_Services\02-files\01_exercise\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+C:\Users\Nuno\Documents\DAM_Services\02-files\01_exercise\Ejercicio1\bin\Debug\Ejercicio1.exe
+C:\Users\Nuno\Documents\DAM_Services\02-files\01_exercise\Ejercicio1\bin\Debug\Ejercicio1.pdb
+C:\Users\Nuno\Documents\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.csproj.AssemblyReference.cache
+C:\Users\Nuno\Documents\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nuno\Documents\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.Form1.resources
+C:\Users\Nuno\Documents\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.Properties.Resources.resources
+C:\Users\Nuno\Documents\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.csproj.GenerateResource.cache
+C:\Users\Nuno\Documents\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Documents\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.exe
+C:\Users\Nuno\Documents\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.pdb
+G:\Mi unidad\Services-Process\DAM_Services\02-files\01_exercise\Ejercicio1\bin\Debug\Ejercicio1.exe.config
+G:\Mi unidad\Services-Process\DAM_Services\02-files\01_exercise\Ejercicio1\bin\Debug\Ejercicio1.exe
+G:\Mi unidad\Services-Process\DAM_Services\02-files\01_exercise\Ejercicio1\bin\Debug\Ejercicio1.pdb
+G:\Mi unidad\Services-Process\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.csproj.AssemblyReference.cache
+G:\Mi unidad\Services-Process\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.csproj.SuggestedBindingRedirects.cache
+G:\Mi unidad\Services-Process\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.Form1.resources
+G:\Mi unidad\Services-Process\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.Properties.Resources.resources
+G:\Mi unidad\Services-Process\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.csproj.GenerateResource.cache
+G:\Mi unidad\Services-Process\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Services-Process\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.exe
+G:\Mi unidad\Services-Process\DAM_Services\02-files\01_exercise\Ejercicio1\obj\Debug\Ejercicio1.pdb
