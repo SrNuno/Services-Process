@@ -13,3 +13,18 @@ C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\04-exercise\
 C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\04-exercise\Ejercicio4\obj\Debug\net6.0\Ejercicio4.pdb
 C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\04-exercise\Ejercicio4\obj\Debug\net6.0\Ejercicio4.genruntimeconfig.cache
 C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\04-exercise\Ejercicio4\obj\Debug\net6.0\ref\Ejercicio4.dll
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\bin\Debug\net6.0\Ejercicio4.exe
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\bin\Debug\net6.0\Ejercicio4.deps.json
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\bin\Debug\net6.0\Ejercicio4.runtimeconfig.json
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\bin\Debug\net6.0\Ejercicio4.dll
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\bin\Debug\net6.0\Ejercicio4.pdb
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\obj\Debug\net6.0\Ejercicio4.csproj.AssemblyReference.cache
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\obj\Debug\net6.0\Ejercicio4.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\obj\Debug\net6.0\Ejercicio4.AssemblyInfoInputs.cache
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\obj\Debug\net6.0\Ejercicio4.AssemblyInfo.cs
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\obj\Debug\net6.0\Ejercicio4.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\obj\Debug\net6.0\Ejercicio4.dll
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\obj\Debug\net6.0\refint\Ejercicio4.dll
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\obj\Debug\net6.0\Ejercicio4.pdb
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\obj\Debug\net6.0\Ejercicio4.genruntimeconfig.cache
+G:\Mi unidad\Services-Process\01-multithreading\04-exercise\Ejercicio4\obj\Debug\net6.0\ref\Ejercicio4.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Services-Process\\01-multithreading\\01-exercise\\Ejercicio1\\Ejercicio1.csproj": {}
+    "G:\\Mi unidad\\Services-Process\\01-multithreading\\01-exercise\\Ejercicio1\\Ejercicio1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Services-Process\\01-multithreading\\01-exercise\\Ejercicio1\\Ejercicio1.csproj": {
+    "G:\\Mi unidad\\Services-Process\\01-multithreading\\01-exercise\\Ejercicio1\\Ejercicio1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Services-Process\\01-multithreading\\01-exercise\\Ejercicio1\\Ejercicio1.csproj",
+        "projectUniqueName": "G:\\Mi unidad\\Services-Process\\01-multithreading\\01-exercise\\Ejercicio1\\Ejercicio1.csproj",
         "projectName": "Ejercicio1",
-        "projectPath": "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Services-Process\\01-multithreading\\01-exercise\\Ejercicio1\\Ejercicio1.csproj",
+        "projectPath": "G:\\Mi unidad\\Services-Process\\01-multithreading\\01-exercise\\Ejercicio1\\Ejercicio1.csproj",
         "packagesPath": "C:\\Users\\Nuno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Services-Process\\01-multithreading\\01-exercise\\Ejercicio1\\obj\\",
+        "outputPath": "G:\\Mi unidad\\Services-Process\\01-multithreading\\01-exercise\\Ejercicio1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nuno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -13,3 +13,18 @@ C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\02-exercise\
 C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\obj\Debug\net6.0\Ejercicio2.pdb
 C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\obj\Debug\net6.0\Ejercicio2.genruntimeconfig.cache
 C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\obj\Debug\net6.0\ref\Ejercicio2.dll
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\bin\Debug\net6.0\Ejercicio2.exe
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\bin\Debug\net6.0\Ejercicio2.deps.json
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\bin\Debug\net6.0\Ejercicio2.runtimeconfig.json
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\bin\Debug\net6.0\Ejercicio2.dll
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\bin\Debug\net6.0\Ejercicio2.pdb
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\obj\Debug\net6.0\Ejercicio2.csproj.AssemblyReference.cache
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\obj\Debug\net6.0\Ejercicio2.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\obj\Debug\net6.0\Ejercicio2.AssemblyInfoInputs.cache
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\obj\Debug\net6.0\Ejercicio2.AssemblyInfo.cs
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\obj\Debug\net6.0\Ejercicio2.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\obj\Debug\net6.0\Ejercicio2.dll
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\obj\Debug\net6.0\refint\Ejercicio2.dll
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\obj\Debug\net6.0\Ejercicio2.pdb
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\obj\Debug\net6.0\Ejercicio2.genruntimeconfig.cache
+G:\Mi unidad\Services-Process\01-multithreading\02-exercise\Ejercicio2\Ejercicio2\obj\Debug\net6.0\ref\Ejercicio2.dll

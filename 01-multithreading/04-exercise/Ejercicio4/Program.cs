@@ -12,8 +12,8 @@
             Thread thread1 = new Thread(() => decrement());
             thread.Start();
             thread1.Start();
-
             thread.Join();
+            thread1.Join();
 
 
         }
@@ -26,11 +26,11 @@
                     if (!finish)
                     {
                         Console.WriteLine("T1: " + val);
-                        val++;
-                        if (val == 1001)
+                        if (val == 1000)
                         {
                             finish = true;
                         }
+                        val++;
                     }
                 }
             }
@@ -46,11 +46,11 @@
                     if (!finish)
                     {
                         Console.WriteLine("T2: " + val);
-                        val--;
-                        if (val == -1001)
+                        if (val == -1000)
                         {
                             finish = true;
                         }
+                        val--;
                     }
                 }
             }
