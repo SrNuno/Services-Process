@@ -62,6 +62,7 @@ namespace Ejercicio3
         }
         private void processInfo()
         {
+            int val = 0;
             ProcessThreadCollection threadCollection;
             ProcessModuleCollection moduleCollection;
 

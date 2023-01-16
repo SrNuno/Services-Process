@@ -9,3 +9,11 @@ C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\03-exercise\
 C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\03-exercise\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.csproj.CoreCompileInputs.cache
 C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\03-exercise\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.exe
 C:\Users\Nuno\Documents\DAM\2DAM\Services-Process\01-multithreading\03-exercise\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.pdb
+G:\Mi unidad\Services-Process\01-multithreading\03-exercise\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.csproj.AssemblyReference.cache
+G:\Mi unidad\Services-Process\01-multithreading\03-exercise\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.csproj.SuggestedBindingRedirects.cache
+G:\Mi unidad\Services-Process\01-multithreading\03-exercise\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.Form1.resources
+G:\Mi unidad\Services-Process\01-multithreading\03-exercise\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.Properties.Resources.resources
+G:\Mi unidad\Services-Process\01-multithreading\03-exercise\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.csproj.GenerateResource.cache
+G:\Mi unidad\Services-Process\01-multithreading\03-exercise\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Services-Process\01-multithreading\03-exercise\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.exe
+G:\Mi unidad\Services-Process\01-multithreading\03-exercise\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.pdb

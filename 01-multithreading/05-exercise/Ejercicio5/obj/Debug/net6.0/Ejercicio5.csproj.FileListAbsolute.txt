@@ -1,0 +1,15 @@
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\bin\Debug\net6.0\Ejercicio5.exe
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\bin\Debug\net6.0\Ejercicio5.deps.json
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\bin\Debug\net6.0\Ejercicio5.runtimeconfig.json
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\bin\Debug\net6.0\Ejercicio5.dll
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\bin\Debug\net6.0\Ejercicio5.pdb
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\obj\Debug\net6.0\Ejercicio5.csproj.AssemblyReference.cache
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\obj\Debug\net6.0\Ejercicio5.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\obj\Debug\net6.0\Ejercicio5.AssemblyInfoInputs.cache
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\obj\Debug\net6.0\Ejercicio5.AssemblyInfo.cs
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\obj\Debug\net6.0\Ejercicio5.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\obj\Debug\net6.0\Ejercicio5.dll
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\obj\Debug\net6.0\refint\Ejercicio5.dll
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\obj\Debug\net6.0\Ejercicio5.pdb
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\obj\Debug\net6.0\Ejercicio5.genruntimeconfig.cache
+G:\Mi unidad\Services-Process\01-multithreading\05-exercise\Ejercicio5\obj\Debug\net6.0\ref\Ejercicio5.dll
