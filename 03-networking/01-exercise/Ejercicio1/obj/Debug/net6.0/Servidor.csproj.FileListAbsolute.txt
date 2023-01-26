@@ -1,0 +1,30 @@
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Servidor.exe
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Servidor.deps.json
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Servidor.runtimeconfig.json
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Servidor.dll
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Servidor.pdb
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.csproj.AssemblyReference.cache
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.AssemblyInfoInputs.cache
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.AssemblyInfo.cs
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.dll
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\refint\Servidor.dll
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.pdb
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.genruntimeconfig.cache
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\ref\Servidor.dll
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Servidor.exe
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Servidor.deps.json
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Servidor.runtimeconfig.json
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Servidor.dll
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Servidor.pdb
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.csproj.AssemblyReference.cache
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.AssemblyInfoInputs.cache
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.AssemblyInfo.cs
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.dll
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\refint\Servidor.dll
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.pdb
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Servidor.genruntimeconfig.cache
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\ref\Servidor.dll

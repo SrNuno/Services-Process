@@ -1,0 +1,15 @@
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Ejercicio1.exe
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Ejercicio1.deps.json
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Ejercicio1.runtimeconfig.json
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Ejercicio1.dll
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\bin\Debug\net6.0\Ejercicio1.pdb
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Ejercicio1.csproj.AssemblyReference.cache
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Ejercicio1.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Ejercicio1.AssemblyInfoInputs.cache
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Ejercicio1.AssemblyInfo.cs
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Ejercicio1.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Ejercicio1.dll
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\refint\Ejercicio1.dll
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Ejercicio1.pdb
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\Ejercicio1.genruntimeconfig.cache
+G:\Mi unidad\Services-Process\03-networking\01-exercise\Ejercicio1\obj\Debug\net6.0\ref\Ejercicio1.dll
