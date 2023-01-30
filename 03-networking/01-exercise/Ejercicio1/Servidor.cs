@@ -34,60 +34,60 @@ namespace Ejercicio1
             {
                 sw.WriteLine("Welcome to Nuno Server");
                 sw.Flush();
-                while (true)
+
+                try
                 {
-                    try
+                    message = sr.ReadLine();
+                    string[] text = message.Split(" ");
+                    switch (text[0])
                     {
-                        message = sr.ReadLine();
-                        string[] text = message.Split(" ");
-                        switch (text[0])
-                        {
-                            case "time":
-                                sw.WriteLine(DateTime.Now.ToString("h:mm"));
-                                break;
+                        case "time":
+                            sw.WriteLine(DateTime.Now.ToString("h:mm"));
+                            break;
 
-                            case "date":
-                                sw.WriteLine(DateTime.UtcNow.ToString("dd-MM-yyyy"));
+                        case "date":
+                            sw.WriteLine(DateTime.UtcNow.ToString("dd-MM-yyyy"));
 
-                                break;
+                            break;
 
-                            case "all":
-                                sw.WriteLine(DateTime.Now);
-                                break;
+                        case "all":
+                            sw.WriteLine(DateTime.Now);
+                            break;
 
-                            case "close":
-                                StreamReader reader = null;
-                                try
-                                {
-                                    reader = new StreamReader(Environment.GetEnvironmentVariable("PROGRAMDATA") + "\\password.txt");
-                                }
-                                catch (Exception e)
-                                {
-                                    Console.WriteLine(e.Message);
-                                }
+                        case "close":
+                            StreamReader reader = null;
+                            try
+                            {
+                                reader = new StreamReader(Environment.GetEnvironmentVariable("PROGRAMDATA") + "\\password.txt");
+                            }
+                            catch (Exception e)
+                            {
+                                Console.WriteLine(e.Message);
+                            }
 
-                                if (text.Length > 1 && text[1] == reader.ReadLine())
-                                {
-                                    sw.WriteLine("\nClose operation");
-                                }
-                                else
-                                {
-                                    sw.WriteLine("Password invalid");
-                                }
-                                break;
+                            if (text.Length > 1 && text[1] == reader.ReadLine())
+                            {
+                                sw.WriteLine("Close operation");
+                            }
+                            else
+                            {
+                                sw.WriteLine("Password invalid");
+                            }
+                            break;
 
-                            default:
-                                sw.WriteLine("Command invalid");
-                                break;
-                        }
+                        default:
+                            sw.WriteLine("Command invalid");
+                            break;
                     }
-                    catch (IOException)
-                    {
-                        break;
-                    }
+                }
+                catch (IOException e)
+                {
+                    sw.WriteLine(e.Message);
+                }
+                sw.Flush();
                 Console.WriteLine("Finish connection");
+                client.Close();
             }
-            client.Close();
         }
     }
 }
