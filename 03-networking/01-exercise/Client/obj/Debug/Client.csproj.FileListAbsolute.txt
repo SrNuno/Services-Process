@@ -9,3 +9,4 @@ C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\De
 C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
 C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.exe
 C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.pdb
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.IP_Port.resources

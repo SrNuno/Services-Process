@@ -37,8 +37,6 @@
             this.time = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.changeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.iPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.portToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -120,24 +118,10 @@
             // 
             // changeToolStripMenuItem
             // 
-            this.changeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.iPToolStripMenuItem,
-            this.portToolStripMenuItem});
             this.changeToolStripMenuItem.Name = "changeToolStripMenuItem";
             this.changeToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.changeToolStripMenuItem.Text = "Change";
-            // 
-            // iPToolStripMenuItem
-            // 
-            this.iPToolStripMenuItem.Name = "iPToolStripMenuItem";
-            this.iPToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.iPToolStripMenuItem.Text = "IP";
-            // 
-            // portToolStripMenuItem
-            // 
-            this.portToolStripMenuItem.Name = "portToolStripMenuItem";
-            this.portToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.portToolStripMenuItem.Text = "Port";
+            this.changeToolStripMenuItem.Click += new System.EventHandler(this.changeToolStripMenuItem_Click);
             // 
             // Cliente
             // 
@@ -174,8 +158,6 @@
         private System.Windows.Forms.Button time;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem changeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem iPToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem portToolStripMenuItem;
     }
 }
 
