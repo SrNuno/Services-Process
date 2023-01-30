@@ -1,5 +1,6 @@
 ﻿using System.Net;
 using System.Net.Sockets;
+using System.Reflection.PortableExecutable;
 using System.Runtime.InteropServices;
 
 namespace Ejercicio1
@@ -9,79 +10,84 @@ namespace Ejercicio1
         static void Main(string[] args)
         {
             IPEndPoint ie = new IPEndPoint(IPAddress.Any, 5005);
-            using (Socket s = new Socket(AddressFamily.InterNetwork, SocketType.Stream,
-            ProtocolType.Tcp))
+            Socket s = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            s.Bind(ie);
+            s.Listen(10);
+            Console.WriteLine($"Server waiting at port {ie.Port}");
+            while (true)
             {
-                s.Bind(ie);
-                s.Listen(10);
-                Console.WriteLine($"Server listening at port:{ie.Port}");
-                Socket sClient = s.Accept();
-                IPEndPoint ieClient = (IPEndPoint)sClient.RemoteEndPoint;
-                Console.WriteLine("Client connected:{0} at port {1}", ieClient.Address,
-               ieClient.Port);
-                using (NetworkStream ns = new NetworkStream(sClient))
-                using (StreamReader sr = new StreamReader(ns))
-                using (StreamWriter sw = new StreamWriter(ns))
+                Socket client = s.Accept();
+                Thread thread = new Thread(threadClient);
+                thread.Start(client);
+            }
+        }
+
+        static void threadClient(object socket)
+        {
+            string message;
+            Socket client = (Socket)socket;
+            IPEndPoint ieClient = (IPEndPoint)client.RemoteEndPoint;
+            Console.WriteLine($"Connected with client {ieClient.Address} at port {ieClient.Port}");
+            using (NetworkStream ns = new NetworkStream(client))
+            using (StreamReader sr = new StreamReader(ns))
+            using (StreamWriter sw = new StreamWriter(ns))
+            {
+                sw.WriteLine("Welcome to Nuno Server");
+                sw.Flush();
+                while (true)
                 {
-                    string welcome = "Welcome to Nuno Server";
-                    sw.WriteLine(welcome);
-                    sw.Flush();
-                    string msg = sr.ReadLine();
-                    while (msg != null)
+                    try
                     {
-                        try
+                        message = sr.ReadLine();
+                        string[] text = message.Split(" ");
+                        switch (text[0])
                         {
-                            string[] text = msg.Split(" ");
-                            switch (text[0])
-                            {
-                                case "time":
-                                    sw.WriteLine(DateTime.Now.ToString("h:mm"));
-                                    break;
+                            case "time":
+                                sw.WriteLine(DateTime.Now.ToString("h:mm"));
+                                break;
 
-                                case "date":
-                                    sw.WriteLine(DateTime.UtcNow.ToString("dd-MM-yyyy"));
-                                    break;
+                            case "date":
+                                sw.WriteLine(DateTime.UtcNow.ToString("dd-MM-yyyy"));
 
-                                case "all":
-                                    sw.WriteLine(DateTime.Now);
-                                    break;
+                                break;
 
-                                case "close":
-                                    StreamReader reader = null;
-                                    try
-                                    {
-                                        reader = new StreamReader(Environment.GetEnvironmentVariable("PROGRAMDATA") + "\\password.txt");
-                                    }
-                                    catch (Exception e)
-                                    {
-                                        Console.WriteLine(e.Message);
-                                    }
+                            case "all":
+                                sw.WriteLine(DateTime.Now);
+                                break;
 
-                                    if (text.Length > 1 && text[1] == reader.ReadLine())
-                                    {
-                                        sw.WriteLine("Close operation");
-                                    }
-                                    else
-                                    {
-                                        sw.WriteLine("Password invalid");
-                                    }
-                                    break;
+                            case "close":
+                                StreamReader reader = null;
+                                try
+                                {
+                                    reader = new StreamReader(Environment.GetEnvironmentVariable("PROGRAMDATA") + "\\password.txt");
+                                }
+                                catch (Exception e)
+                                {
+                                    Console.WriteLine(e.Message);
+                                }
 
-                                default:
-                                    sw.WriteLine("Command invalid");
-                                    break;
-                            }
-                            sw.Flush();
-                        }
-                        catch (IOException)
-                        {
-                            msg = null;
+                                if (text.Length > 1 && text[1] == reader.ReadLine())
+                                {
+                                    sw.WriteLine("\nClose operation");
+                                }
+                                else
+                                {
+                                    sw.WriteLine("Password invalid");
+                                }
+                                break;
+
+                            default:
+                                sw.WriteLine("Command invalid");
+                                break;
                         }
                     }
-                    Console.WriteLine("Client disconnected.\nConnection closed");
-                }
-                //sClient.Close();
+                    catch (IOException)
+                    {
+                        break;
+                    }
+                Console.WriteLine("Finish connection");
             }
+            client.Close();
         }
     }
 }
