@@ -71,8 +71,8 @@ namespace Client
         private void changeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             IP_Port form = new IP_Port();
-            DialogResult dr;
-            dr = form.ShowDialog();
+            DialogResult res;
+            res = form.ShowDialog();
         }
     }
 }
