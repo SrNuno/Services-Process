@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -15,6 +16,11 @@ namespace Client
 {
     public partial class Cliente : Form
     {
+        string ip = "127.0.0.1";
+        int port = 5005;
+        IPEndPoint ipep;
+        string path = Environment.GetEnvironmentVariable("HOMEPATH") + "\\config.ini";
+
         public Cliente()
         {
             InitializeComponent();
@@ -22,9 +28,8 @@ namespace Client
 
         private void connection(string command)
         {
-            const string IP_SERVER = "127.0.0.1";
-            string msg;
-            IPEndPoint ipep = new IPEndPoint(IPAddress.Parse(IP_SERVER), 5005);
+            string msg = "";
+            ipep = new IPEndPoint(IPAddress.Parse(ip), port);
             Socket socketServer = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             try
             {
@@ -73,6 +78,36 @@ namespace Client
             IP_Port form = new IP_Port();
             DialogResult res;
             res = form.ShowDialog();
+            StreamWriter sw;
+            bool portValid = false;
+
+            switch (res)
+            {
+                case DialogResult.OK:
+                    if (Int32.Parse(form.textPort.Text) >= 0 && Int32.Parse(form.textPort.Text) <= 65535)
+                    {
+                        sw = new StreamWriter(path);
+                        sw.WriteLine(IPAddress.Parse(form.textIP.Text) + ":" + Int32.Parse(form.textPort.Text));
+                        sw.Close();
+                    }
+                    else
+                    {
+                        Debug.WriteLine("Port invalid");
+                    }
+
+                    string line;
+                    StreamReader sr;
+                    sr = new StreamReader(path);
+                    line = sr.ReadLine();
+                    while (line != null)
+                    {
+                        ip = line.Split(':')[0];
+                        port = Int32.Parse(line.Split(':')[1]);
+                        line= sr.ReadLine();
+                    }
+                    sr.Close();
+                    break;
+            }
         }
     }
 }

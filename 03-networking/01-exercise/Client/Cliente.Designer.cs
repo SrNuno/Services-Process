@@ -42,9 +42,10 @@
             // 
             // date
             // 
-            this.date.Location = new System.Drawing.Point(93, 27);
+            this.date.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date.Location = new System.Drawing.Point(12, 27);
             this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(75, 23);
+            this.date.Size = new System.Drawing.Size(120, 120);
             this.date.TabIndex = 2;
             this.date.Text = "Date";
             this.date.UseVisualStyleBackColor = true;
@@ -52,9 +53,10 @@
             // 
             // all
             // 
-            this.all.Location = new System.Drawing.Point(174, 27);
+            this.all.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.all.Location = new System.Drawing.Point(12, 153);
             this.all.Name = "all";
-            this.all.Size = new System.Drawing.Size(75, 23);
+            this.all.Size = new System.Drawing.Size(120, 120);
             this.all.TabIndex = 3;
             this.all.Text = "All";
             this.all.UseVisualStyleBackColor = true;
@@ -62,9 +64,10 @@
             // 
             // close
             // 
-            this.close.Location = new System.Drawing.Point(258, 27);
+            this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.close.Location = new System.Drawing.Point(137, 153);
             this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(75, 23);
+            this.close.Size = new System.Drawing.Size(120, 120);
             this.close.TabIndex = 4;
             this.close.Text = "Close";
             this.close.UseVisualStyleBackColor = true;
@@ -72,7 +75,7 @@
             // 
             // pwd
             // 
-            this.pwd.Location = new System.Drawing.Point(179, 347);
+            this.pwd.Location = new System.Drawing.Point(103, 347);
             this.pwd.Name = "pwd";
             this.pwd.Size = new System.Drawing.Size(155, 20);
             this.pwd.TabIndex = 5;
@@ -80,7 +83,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(117, 350);
+            this.label1.Location = new System.Drawing.Point(41, 350);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 13);
             this.label1.TabIndex = 6;
@@ -89,18 +92,19 @@
             // 
             // txtResults
             // 
-            this.txtResults.Location = new System.Drawing.Point(12, 56);
+            this.txtResults.Location = new System.Drawing.Point(12, 279);
             this.txtResults.Multiline = true;
             this.txtResults.Name = "txtResults";
             this.txtResults.ReadOnly = true;
-            this.txtResults.Size = new System.Drawing.Size(321, 282);
+            this.txtResults.Size = new System.Drawing.Size(246, 59);
             this.txtResults.TabIndex = 7;
             // 
             // time
             // 
-            this.time.Location = new System.Drawing.Point(12, 27);
+            this.time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.time.Location = new System.Drawing.Point(138, 27);
             this.time.Name = "time";
-            this.time.Size = new System.Drawing.Size(75, 23);
+            this.time.Size = new System.Drawing.Size(120, 120);
             this.time.TabIndex = 8;
             this.time.Text = "Time";
             this.time.UseVisualStyleBackColor = true;
@@ -112,7 +116,7 @@
             this.changeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(346, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(269, 24);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -128,7 +132,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(346, 376);
+            this.ClientSize = new System.Drawing.Size(269, 376);
             this.Controls.Add(this.time);
             this.Controls.Add(this.txtResults);
             this.Controls.Add(this.label1);
