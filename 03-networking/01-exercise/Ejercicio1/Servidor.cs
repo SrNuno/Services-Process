@@ -7,18 +7,27 @@ namespace Ejercicio1
 {
     internal class Servidor
     {
+        public static bool close = false;
+        public static Socket s;
         static void Main(string[] args)
         {
             IPEndPoint ie = new IPEndPoint(IPAddress.Any, 5005);
-            Socket s = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            s = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             s.Bind(ie);
             s.Listen(10);
             Console.WriteLine($"Server waiting at port {ie.Port}");
-            while (true)
+            try
             {
-                Socket client = s.Accept();
-                Thread thread = new Thread(threadClient);
-                thread.Start(client);
+                while (!close)
+                {
+                    Socket client = s.Accept();
+                    Thread thread = new Thread(threadClient);
+                    thread.Start(client);
+                }
+            }
+            catch (SocketException e)
+            {
+                Console.WriteLine(e.StackTrace.ToString());
             }
         }
 
@@ -42,7 +51,7 @@ namespace Ejercicio1
                     switch (text[0])
                     {
                         case "time":
-                            sw.WriteLine(DateTime.Now.ToString("h:mm"));
+                            sw.WriteLine(DateTime.Now.ToString("H:mm"));
                             break;
 
                         case "date":
@@ -60,7 +69,7 @@ namespace Ejercicio1
                             {
                                 reader = new StreamReader(Environment.GetEnvironmentVariable("PROGRAMDATA") + "\\password.txt");
                             }
-                            catch (Exception e)
+                            catch (FileNotFoundException e)
                             {
                                 Console.WriteLine(e.Message);
                             }
@@ -68,11 +77,14 @@ namespace Ejercicio1
                             if (text.Length > 1 && text[1] == reader.ReadLine())
                             {
                                 sw.WriteLine("Close operation");
+                                close = true;
+                                s.Close();
                             }
                             else
                             {
                                 sw.WriteLine("Password invalid");
                             }
+                            reader.Close();
                             break;
 
                         default:
