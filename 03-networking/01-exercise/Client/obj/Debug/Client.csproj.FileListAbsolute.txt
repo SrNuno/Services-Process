@@ -3,10 +3,10 @@ C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\bin\De
 C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\bin\Debug\Client.pdb
 C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.csproj.AssemblyReference.cache
 C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
-C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.Cliente.resources
 C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.Properties.Resources.resources
 C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.csproj.GenerateResource.cache
 C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
 C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.exe
 C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.pdb
-C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.IP_Port.resources
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.Client.resources
+C:\Users\Nuno\Documents\Services-Process\03-networking\01-exercise\Client\obj\Debug\Client.Configuration.resources
