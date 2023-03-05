@@ -72,7 +72,7 @@ namespace Server
                             switch (text[0].Trim())
                             {
                                 case "time":
-                                    sw.WriteLine(DateTime.Now.ToString("H:MM"));
+                                    sw.WriteLine(DateTime.UtcNow.ToString("H:mm"));
                                     break;
 
                                 case "date":
