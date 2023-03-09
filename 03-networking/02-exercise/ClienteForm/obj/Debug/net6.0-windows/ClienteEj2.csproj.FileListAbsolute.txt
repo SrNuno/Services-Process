@@ -1,0 +1,54 @@
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.exe
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.deps.json
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.runtimeconfig.json
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.dll
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.pdb
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.csproj.AssemblyReference.cache
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteForm.Form1.resources
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteForm.FormDatos.resources
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.csproj.GenerateResource.cache
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.AssemblyInfoInputs.cache
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.AssemblyInfo.cs
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.csproj.CoreCompileInputs.cache
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.dll
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\refint\ClienteEj2.dll
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.pdb
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.genruntimeconfig.cache
+C:\Users\Trabajo\Desktop\Drive\2do\procesos\2do trimestre\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ref\ClienteEj2.dll
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.exe
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.deps.json
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.runtimeconfig.json
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.dll
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.pdb
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.csproj.AssemblyReference.cache
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteForm.Form1.resources
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteForm.FormDatos.resources
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.csproj.GenerateResource.cache
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.AssemblyInfoInputs.cache
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.AssemblyInfo.cs
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.dll
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\refint\ClienteEj2.dll
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.pdb
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.genruntimeconfig.cache
+C:\Users\Nuno\Desktop\Ej2\Ej1\ClienteForm\obj\Debug\net6.0-windows\ref\ClienteEj2.dll
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.exe
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.deps.json
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.runtimeconfig.json
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.dll
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\bin\Debug\net6.0-windows\ClienteEj2.pdb
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.csproj.AssemblyReference.cache
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\obj\Debug\net6.0-windows\ClienteForm.Form1.resources
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\obj\Debug\net6.0-windows\ClienteForm.FormDatos.resources
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.csproj.GenerateResource.cache
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.AssemblyInfoInputs.cache
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.AssemblyInfo.cs
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.dll
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\obj\Debug\net6.0-windows\refint\ClienteEj2.dll
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.pdb
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\obj\Debug\net6.0-windows\ClienteEj2.genruntimeconfig.cache
+C:\Users\Nuno\Documents\Services-Process\03-networking\02-exercise\ClienteForm\obj\Debug\net6.0-windows\ref\ClienteEj2.dll
