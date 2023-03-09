@@ -4,26 +4,28 @@ using System.Reflection.Metadata;
 
 namespace ClienteForm
 {
+
     public partial class Form1 : Form
     {
         public string ip = "192.168.20.100";
-        public int puerto = 5005;
+        public int puerto = 1516;
         public string DNI = "53817232s";
 
-        private Conex conex;
+        private ConexionEj2 cnx;
         public Form1()
         {
             InitializeComponent();
-            conex = new Conex(this);
+            cnx = new ConexionEj2(this);
             LeerDatos();
+
         }
 
-        private void btnComando(object sender, EventArgs e)
+        private void BtnComando(object sender, EventArgs e)
         {
             string comando = ((Button)sender).Text;
-            if (conex.Conectar())
+            if (cnx.Conectar())
             {
-                conex.Comando(comando);
+                cnx.Comando(comando);
             }
         }
 
@@ -38,6 +40,7 @@ namespace ClienteForm
                 {
                     File.WriteAllText(direccion, ip + ":" + puerto + ":" + DNI);
                 }
+                
                 sr = new StreamReader(direccion);
                 string content;
                 if ((content = sr.ReadLine()) != null)
@@ -60,7 +63,7 @@ namespace ClienteForm
             }
             catch (Exception e)
             {
-                Debug.Write(e.Message);
+                Debug.WriteLine(e.Message);
             }
         }
 

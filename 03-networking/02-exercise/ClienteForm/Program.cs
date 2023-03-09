@@ -5,7 +5,7 @@ namespace ClienteForm
 {
     internal static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
@@ -16,11 +16,12 @@ namespace ClienteForm
             const string IP_SERVER = "192.168.20.100";
             string msg;
             string userMsg;
-
-            IPEndPoint ie = new IPEndPoint(IPAddress.Parse(IP_SERVER), 1516);
+            IPEndPoint ie = new IPEndPoint(IPAddress.Parse(IP_SERVER), 5005);
             Console.WriteLine("Starting client. Press a key to init connection");
 
-            Socket server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            Console.ReadKey();
+            Socket server = new Socket(AddressFamily.InterNetwork,
+            SocketType.Stream, ProtocolType.Tcp);
             try
             {
                 server.Connect(ie);
@@ -49,6 +50,7 @@ namespace ClienteForm
                 }
             }
             Console.WriteLine("Ending connection");
+            //Indicamos fin de transmisión.
             server.Close();
         }
     }

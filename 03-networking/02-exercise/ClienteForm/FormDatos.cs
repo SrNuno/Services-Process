@@ -24,7 +24,7 @@ namespace ClienteForm
         }
 
 
-        private bool checkIp(String ipString)
+        private bool CheckIp(String ipString)
         {
             int n;
             if (String.IsNullOrWhiteSpace(ipString))
@@ -53,10 +53,11 @@ namespace ClienteForm
 
                 }
             }
+
             return true;
         }
 
-        private bool checkPuerto(String puerto)
+        private bool CheckPuerto(String puerto)
         {
             int n;
             if (Int32.TryParse(puerto, out n))
@@ -75,12 +76,12 @@ namespace ClienteForm
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            if (checkIp(txbIp.Text) && checkPuerto(txbPuerto.Text) && !String.IsNullOrEmpty(txbDNI.Text))
+            if (CheckIp(txbIp.Text) && CheckPuerto(txbPuerto.Text) && !String.IsNullOrEmpty(txbDNI.Text))
             {
                 StreamWriter sw = null;
                 try
                 {
-                    sw = new StreamWriter(Environment.GetEnvironmentVariable("USERPROFILE") + "\\config.ini", false);
+                    sw = new StreamWriter(Environment.GetEnvironmentVariable("USERPROFILE") + "\\config.ini");
 
                     sw.WriteLine(txbIp.Text + ":" + txbPuerto.Text + ":" + txbDNI.Text);
                     lblGuardar.Text = "Datos guardados";
@@ -94,7 +95,7 @@ namespace ClienteForm
             }
             else
             {
-                lblGuardar.Text = "Hay datos erróneos";
+                lblGuardar.Text = "Hay datos erroneos";
 
             }
         }
